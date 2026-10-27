@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "poweredtfc:create_to_tfc_converter",
+    "poweredtfc:tfc_to_create_converter"
+  ]
+}

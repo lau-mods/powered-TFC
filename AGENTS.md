@@ -6,6 +6,8 @@ Mod ID は `poweredtfc`、Java package は `dev.poweredtfc.poweredtfc`。
 Create 6.0.10、TFC 4.2.12、Patchouli 1.21.1-93-NEOFORGE を必須依存とし、Powered TFC はこれらの後に読み込む。
 Blaze Burner の server tick は直上のTFC受熱設備へ Smouldering 80℃、Fading 1100℃、Kindled 1300℃、Seething 1800℃を供給する。
 水平に送風する Encased Fan は20 tickごとにBellows互換位置へ `100 + |RPM|` の空気を供給し、停止中と垂直送風時は供給しない。
+Converter は `FACING` 側を Create 接続、反対側を TFC 接続として `RPM × 2π / 1200` で双方向変換し、Redstone 通電中は停止する。
+COMMON config の8項目は `blaze_burner.*`、`encased_fan.*`、`mechanical_converters.*` に置き、値は動作時に読み直す。
 
 ## Harness runtime
 

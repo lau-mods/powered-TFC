@@ -1,7 +1,7 @@
 package dev.poweredtfc.poweredtfc.air;
 
 import com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity;
-import dev.poweredtfc.poweredtfc.PoweredTFCConfig;
+import dev.poweredtfc.poweredtfc.config.PoweredTFCConfig;
 import net.dries007.tfc.common.blocks.devices.IBellowsConsumer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -27,8 +27,8 @@ public final class EncasedFanAir {
             if (targetState.getBlock() instanceof IBellowsConsumer consumer
                 && consumer.canAcceptAir(fan.getLevel(), targetPos, targetState)) {
                 consumer.intakeAir(fan.getLevel(), targetPos, targetState,
-                    (int) (PoweredTFCConfig.BASE_AIR
-                        + Math.abs(fan.getSpeed()) * PoweredTFCConfig.SPEED_MULTIPLIER));
+                    (int) (PoweredTFCConfig.BASE_AIR.get()
+                        + Math.abs(fan.getSpeed()) * PoweredTFCConfig.SPEED_MULTIPLIER.get()));
             }
         }
     }

@@ -2,7 +2,7 @@ package dev.poweredtfc.poweredtfc.heat;
 
 import com.simibubi.create.content.processing.burner.BlazeBurnerBlock;
 import com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity;
-import dev.poweredtfc.poweredtfc.PoweredTFCConfig;
+import dev.poweredtfc.poweredtfc.config.PoweredTFCConfig;
 import net.dries007.tfc.common.component.heat.HeatCapability;
 import net.minecraft.core.Direction;
 
@@ -15,10 +15,10 @@ public final class BlazeBurnerHeat {
             return;
         }
         float temperature = switch (burner.getBlockState().getValue(BlazeBurnerBlock.HEAT_LEVEL)) {
-            case SMOULDERING -> PoweredTFCConfig.SMOULDERING_HEAT;
-            case FADING -> PoweredTFCConfig.FADING_HEAT;
-            case KINDLED -> PoweredTFCConfig.KINDLED_HEAT;
-            case SEETHING -> PoweredTFCConfig.SEETHING_HEAT;
+            case SMOULDERING -> PoweredTFCConfig.SMOULDERING_HEAT.get();
+            case FADING -> PoweredTFCConfig.FADING_HEAT.get();
+            case KINDLED -> PoweredTFCConfig.KINDLED_HEAT.get();
+            case SEETHING -> PoweredTFCConfig.SEETHING_HEAT.get();
             case NONE -> 0;
         };
         if (temperature == 0) {

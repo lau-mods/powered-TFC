@@ -23,7 +23,76 @@
       "report": "run/gametest-results.xml",
       "classname": "minecraft:empty",
       "name": "stoppedandverticalfan"
+    },
+    {
+      "acId": "AC-F003-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "createtotfcspeedfacesandnetwork"
+    },
+    {
+      "acId": "AC-F003-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stressandrecipes"
+    },
+    {
+      "acId": "AC-F003-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "createtotfcspeedfacesandnetwork"
+    },
+    {
+      "acId": "AC-F004-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "tfctocreatespeednoinputandloop"
+    },
+    {
+      "acId": "AC-F004-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stressandrecipes"
+    },
+    {
+      "acId": "AC-F004-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "tfctocreatespeednoinputandloop"
+    },
+    {
+      "acId": "AC-F005-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "redstonestopandresume"
+    },
+    {
+      "acId": "AC-F005-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "redstonestopandresume"
+    },
+    {
+      "acId": "AC-F012-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "configkeysdefaultsboundsbehaviorandpersistence"
+    },
+    {
+      "acId": "AC-F012-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "configkeysdefaultsboundsbehaviorandpersistence"
     }
   ],
-  "e2e": []
+  "e2e": [
+    {
+      "acId": "AC-F005-001",
+      "scenario": "tests/e2e/converter-redstone.mjs"
+    },
+    {
+      "acId": "AC-F005-002",
+      "scenario": "tests/e2e/converter-redstone.mjs"
+    }
+  ]
 }
