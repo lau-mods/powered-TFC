@@ -7,7 +7,7 @@ Mod ID: poweredtfc
 ## Platform
 
 Minecraft: 1.21.1  
-NeoForge: 21.1.262  
+NeoForge: 21.1.264  
 Java: 21
 
 ## Purpose

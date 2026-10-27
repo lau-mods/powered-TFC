@@ -1,0 +1,40 @@
+# Powered TFC 開発ガイド
+
+製品仕様と Acceptance Criteria の正本は `PROJECT.md`。
+計画は `.harness-state/plan.json`、進捗は `.harness-state/progress.json` に保存する。
+現在の製品コードは MDK の初期状態であり、runtime の準備は製品機能の実装完了を意味しない。
+
+## Harness runtime
+
+- Minecraft 1.21.1、NeoForge 21.1.264、Java 21 を使用する。
+  `PROJECT.md` と `gradle.properties` の NeoForge バージョンを揃える。
+- runtime は Git 管理外の `.harness-state/runtime/` に置く。
+  MC Pilot CLI 0.20.2 は `pilot/node_modules/.bin/mct`、専用サーバーは `server/`。
+  CLI の `data/variants.json` の `1.21.1-neoforge` は 21.1.264 に合わせる。
+- MC Pilot の環境変数は `MCT_HOME=$PWD/.harness-state/runtime/mct-home`、
+  `MCT_CACHE_DIR=$PWD/.harness-state/runtime/mct-cache`、`MCT_SKILL_TARGETS=none`。
+  クライアント名は `poweredtfc-a`、offline account は `poweredtfc_a`。
+- サーバーの接続先は `127.0.0.1:25581`。`server-ip=127.0.0.1` でローカル接続に限定する。
+  検証ワールドは `harness-world`。Harness は E2E ごとにこのワールドを再作成する。
+- Create 6.0.10、TFC 4.2.12、Patchouli 1.21.1-93-NEOFORGE を
+  サーバーとクライアントの `mods/` に配置する。
+  Create は Flywheel と Ponder を内包した配布 JAR を使用する。
+- macOS のクライアントには CPU architecture に合う Java 21 を使用する。
+  クライアント生成時の `mct client create` に `--java` で指定する。
+- TFC の初回接続に備え、サーバーの `user_jvm_args.txt` と
+  クライアントの `instance.json` の `env.JAVA_TOOL_OPTIONS` に
+  `-Dneoforge.readTimeout=120` を指定する。両者の最大 heap は 3 GiB。
+- `npm --prefix .harness run build` で Harness をビルドする。
+  `node .harness/dist/cli/main.js doctor` と `validate` で構成を確認する。
+  CLI 認証を確認できる環境で `plan` を実行し、計画と初期進捗を commit する。
+- runtime の確認は専用サーバーとクライアントを起動し、ワールド参加まで確認して停止する。
+  製品機能の GameTest / E2E 成功とは区別する。
+
+## 実装と検証
+
+- 依存 Mod の仕様は対象バージョンのソースまたは JAR/data で確認する。
+- 解析物や補助スクリプトは Git 管理外の `.tmp/` に置く。
+  依存 JAR、runtime、ビルド生成物を commit しない。
+- 製品コードの途中確認は `./gradlew compileJava`、完了確認は `./gradlew build`。
+  JSON を変更した場合は構文と参照先の整合性も確認する。
+- ユーザーに見える挙動、依存関係、ID、検証手順を変更した場合は本書も更新する。
