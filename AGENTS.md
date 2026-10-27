@@ -2,7 +2,10 @@
 
 製品仕様と Acceptance Criteria の正本は `PROJECT.md`。
 計画は `.harness-state/plan.json`、進捗は `.harness-state/progress.json` に保存する。
-現在の製品コードは MDK の初期状態であり、runtime の準備は製品機能の実装完了を意味しない。
+Mod ID は `poweredtfc`、Java package は `dev.poweredtfc.poweredtfc`。
+Create 6.0.10、TFC 4.2.12、Patchouli 1.21.1-93-NEOFORGE を必須依存とし、Powered TFC はこれらの後に読み込む。
+Blaze Burner の server tick は直上のTFC受熱設備へ Smouldering 80℃、Fading 1100℃、Kindled 1300℃、Seething 1800℃を供給する。
+水平に送風する Encased Fan は20 tickごとにBellows互換位置へ `100 + |RPM|` の空気を供給し、停止中と垂直送風時は供給しない。
 
 ## Harness runtime
 
@@ -36,5 +39,6 @@
 - 解析物や補助スクリプトは Git 管理外の `.tmp/` に置く。
   依存 JAR、runtime、ビルド生成物を commit しない。
 - 製品コードの途中確認は `./gradlew compileJava`、完了確認は `./gradlew build`。
+- GameTest は `./gradlew runGameTestServer` で実行する。最大heapは3 GiBで、JUnit XMLは `run/gametest-results.xml` に出力する。
   JSON を変更した場合は構文と参照先の整合性も確認する。
 - ユーザーに見える挙動、依存関係、ID、検証手順を変更した場合は本書も更新する。

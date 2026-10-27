@@ -1,4 +1,29 @@
 {
-  "gameTests": [],
+  "gameTests": [
+    {
+      "acId": "AC-F001-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stagetemperatures"
+    },
+    {
+      "acId": "AC-F001-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "aboveonlyandstopped"
+    },
+    {
+      "acId": "AC-F002-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "horizontalfanspeeds"
+    },
+    {
+      "acId": "AC-F002-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stoppedandverticalfan"
+    }
+  ],
   "e2e": []
 }
