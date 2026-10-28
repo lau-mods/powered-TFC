@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create:display_board",
+    "create:placard"
+  ]
+}

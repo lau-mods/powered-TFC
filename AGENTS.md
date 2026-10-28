@@ -10,6 +10,7 @@ Converter は `FACING` 側を Create 接続、反対側を TFC 接続として `
 Sequenced Assembly のBloom加工は921.00006℃以上で開始し、3 Pressing工程を3周する。TFC温度を持つ主入力は中間品へ温度と熱容量を継承し、完成時はTFC加熱定義を持つ完成品だけへ現在温度を継承する。非加熱完成品には熱情報を付与しない。
 Display Link の情報源 `poweredtfc:tfc_crucible` は温度数値とTFC温度色、`poweredtfc:tfc_blast_furnace` は温度数値、TFC温度色、投入物数、触媒数、燃料数、Compactを提供し、20 tickごとに設備状態を読み直す。
 Basin の液体入力は独立した4槽（各1000 mB）とし、Basin、Mixing、Compacting レシピは最大4種類の液体入力を受け付ける。液体出力は従来どおり2槽（各1000 mB）、最大2種類とし、既存の2槽分の入力を保存した Basin は追加槽を空で読み込む。
+Create 6.0.10 の699 item registry IDとConverter 2 IDは、v0.4.3の値に基づき、`data/poweredtfc/tfc/item_size/create_<size>_<weight>.json` から対応する `poweredtfc:item_size/create_<size>_<weight>` tagを参照して、それぞれ厳密に1つのTFC Size／Weightへ分類する。
 COMMON config の8項目は `blaze_burner.*`、`encased_fan.*`、`mechanical_converters.*` に置き、値は動作時に読み直す。
 
 ## Harness runtime

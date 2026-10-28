@@ -1,0 +1,7 @@
+{
+  "ingredient": {
+    "tag": "poweredtfc:item_size/create_huge_heavy"
+  },
+  "size": "huge",
+  "weight": "heavy"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create:andesite_door",
+    "create:blaze_burner",
+    "create:brass_door",
+    "create:copper_door",
+    "create:empty_blaze_burner",
+    "create:framed_glass_door",
+    "create:train_door"
+  ]
+}

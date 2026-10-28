@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create:cuckoo_clock",
+    "create:factory_gauge",
+    "create:mysterious_cuckoo_clock",
+    "create:nixie_tube",
+    "create:propeller",
+    "create:rose_quartz_lamp",
+    "create:speedometer",
+    "create:stressometer"
+  ]
+}

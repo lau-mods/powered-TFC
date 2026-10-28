@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "create:brass_nugget",
+    "create:chromatic_compound",
+    "create:copper_nugget",
+    "create:experience_nugget",
+    "create:minecart_coupling",
+    "create:polished_rose_quartz",
+    "create:refined_radiance",
+    "create:rose_quartz",
+    "create:shadow_steel",
+    "create:zinc_nugget"
+  ]
+}

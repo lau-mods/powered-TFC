@@ -157,6 +157,18 @@
       "name": "existingrecipesandoutputlimitsremain"
     },
     {
+      "acId": "AC-F011-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "allcreateitemsandconvertershaveoneclassification"
+    },
+    {
+      "acId": "AC-F011-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "classificationscontroltfcsizeweightandvesselstorage"
+    },
+    {
       "acId": "AC-F012-001",
       "report": "run/gametest-results.xml",
       "classname": "minecraft:empty",
@@ -193,6 +205,10 @@
     {
       "acId": "AC-F009-002",
       "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F011-002",
+      "scenario": "tests/e2e/item-sizes.mjs"
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "ingredient": {
+    "tag": "poweredtfc:item_size/create_small_light"
+  },
+  "size": "small",
+  "weight": "light"
+}

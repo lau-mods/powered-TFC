@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:cinder_flour",
+    "create:powdered_obsidian",
+    "create:pulp",
+    "create:tree_fertilizer",
+    "create:wheat_flour"
+  ]
+}

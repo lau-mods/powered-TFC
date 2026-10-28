@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "create:cardboard_sword",
+    "create:chest_minecart_contraption",
+    "create:crushing_wheel",
+    "create:extendo_grip",
+    "create:furnace_minecart_contraption",
+    "create:handheld_worldshaper",
+    "create:large_water_wheel",
+    "create:minecart_contraption",
+    "create:potato_cannon",
+    "create:sail_frame",
+    "create:wand_of_symmetry",
+    "create:water_wheel",
+    "create:white_sail"
+  ]
+}
