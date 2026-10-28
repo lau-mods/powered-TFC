@@ -139,6 +139,24 @@
       "name": "blastfurnaceliveupdate"
     },
     {
+      "acId": "AC-F010-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "fourfluidinputspersistandloadolddata"
+    },
+    {
+      "acId": "AC-F010-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "threeandfourfluidrecipesprocess"
+    },
+    {
+      "acId": "AC-F010-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "existingrecipesandoutputlimitsremain"
+    },
+    {
       "acId": "AC-F012-001",
       "report": "run/gametest-results.xml",
       "classname": "minecraft:empty",
