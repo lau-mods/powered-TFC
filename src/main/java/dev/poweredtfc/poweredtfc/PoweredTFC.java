@@ -25,6 +25,7 @@ public final class PoweredTFC {
                 PoweredTFCConfig.CREATE_TO_TFC_STRESS_IMPACT::get);
             BlockStressValues.CAPACITIES.register(PoweredTFCRegistry.TFC_TO_CREATE_CONVERTER.get(),
                 PoweredTFCConfig.TFC_TO_CREATE_STRESS_CAPACITY::get);
+            PoweredTFCRegistry.associateDisplaySources();
         });
     }
 }

@@ -115,6 +115,30 @@
       "name": "temperaturegate"
     },
     {
+      "acId": "AC-F008-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "crucibletemperaturemodes"
+    },
+    {
+      "acId": "AC-F008-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "cruciblenoheatandupdate"
+    },
+    {
+      "acId": "AC-F009-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "blastfurnacemodes"
+    },
+    {
+      "acId": "AC-F009-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "blastfurnaceliveupdate"
+    },
+    {
       "acId": "AC-F012-001",
       "report": "run/gametest-results.xml",
       "classname": "minecraft:empty",
@@ -135,6 +159,22 @@
     {
       "acId": "AC-F005-002",
       "scenario": "tests/e2e/converter-redstone.mjs"
+    },
+    {
+      "acId": "AC-F008-001",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F008-002",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F009-001",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F009-002",
+      "scenario": "tests/e2e/display-links.mjs"
     }
   ]
 }

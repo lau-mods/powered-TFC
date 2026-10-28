@@ -1,4 +1,15 @@
 {
   "block.poweredtfc.create_to_tfc_converter": "Power Converter (Create to TFC)",
-  "block.poweredtfc.tfc_to_create_converter": "Power Converter (TFC to Create)"
+  "block.poweredtfc.tfc_to_create_converter": "Power Converter (TFC to Create)",
+  "poweredtfc.display_source.tfc_crucible": "Crucible Temperature",
+  "poweredtfc.display_source.tfc_blast_furnace": "Blast Furnace",
+  "poweredtfc.display_source.no_heat": "No heat",
+  "create.display_source.tfc_crucible.temperature": "Temperature",
+  "create.display_source.tfc_crucible.color": "Temperature Color",
+  "create.display_source.tfc_blast_furnace.temperature": "Temperature",
+  "create.display_source.tfc_blast_furnace.color": "Temperature Color",
+  "create.display_source.tfc_blast_furnace.input_count": "Input Count",
+  "create.display_source.tfc_blast_furnace.catalyst_count": "Catalyst Count",
+  "create.display_source.tfc_blast_furnace.fuel_count": "Fuel Count",
+  "create.display_source.tfc_blast_furnace.compact": "Compact"
 }

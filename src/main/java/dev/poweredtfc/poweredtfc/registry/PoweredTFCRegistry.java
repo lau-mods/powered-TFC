@@ -1,11 +1,16 @@
 package dev.poweredtfc.poweredtfc.registry;
 
 import com.simibubi.create.AllCreativeModeTabs;
+import com.simibubi.create.api.behaviour.display.DisplaySource;
+import com.simibubi.create.api.registry.CreateRegistries;
 import dev.poweredtfc.poweredtfc.PoweredTFC;
 import dev.poweredtfc.poweredtfc.converter.CreateToTfcConverterBlock;
 import dev.poweredtfc.poweredtfc.converter.CreateToTfcConverterBlockEntity;
 import dev.poweredtfc.poweredtfc.converter.TfcToCreateConverterBlock;
 import dev.poweredtfc.poweredtfc.converter.TfcToCreateConverterBlockEntity;
+import dev.poweredtfc.poweredtfc.display.BlastFurnaceDisplaySource;
+import dev.poweredtfc.poweredtfc.display.CrucibleDisplaySource;
+import net.dries007.tfc.common.blockentities.TFCBlockEntities;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.SoundType;
@@ -23,6 +28,8 @@ public final class PoweredTFCRegistry {
     private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PoweredTFC.MOD_ID);
     private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
         DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, PoweredTFC.MOD_ID);
+    private static final DeferredRegister<DisplaySource> DISPLAY_SOURCES =
+        DeferredRegister.create(CreateRegistries.DISPLAY_SOURCE, PoweredTFC.MOD_ID);
     private static final BlockBehaviour.Properties CONVERTER_PROPERTIES = BlockBehaviour.Properties.of()
         .strength(3.5f).sound(SoundType.WOOD).noOcclusion();
 
@@ -42,12 +49,23 @@ public final class PoweredTFCRegistry {
         TFC_TO_CREATE_CONVERTER_BLOCK_ENTITY = BLOCK_ENTITIES.register("tfc_to_create_converter",
             () -> BlockEntityType.Builder.of(TfcToCreateConverterBlockEntity::new,
                 TFC_TO_CREATE_CONVERTER.get()).build(null));
+    public static final DeferredHolder<DisplaySource, CrucibleDisplaySource> TFC_CRUCIBLE_DISPLAY_SOURCE =
+        DISPLAY_SOURCES.register("tfc_crucible", CrucibleDisplaySource::new);
+    public static final DeferredHolder<DisplaySource, BlastFurnaceDisplaySource> TFC_BLAST_FURNACE_DISPLAY_SOURCE =
+        DISPLAY_SOURCES.register("tfc_blast_furnace", BlastFurnaceDisplaySource::new);
 
     public static void register(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         BLOCK_ENTITIES.register(modEventBus);
+        DISPLAY_SOURCES.register(modEventBus);
         modEventBus.addListener(PoweredTFCRegistry::addToCreativeTab);
+    }
+
+    public static void associateDisplaySources() {
+        DisplaySource.BY_BLOCK_ENTITY.add(TFCBlockEntities.CRUCIBLE.get(), TFC_CRUCIBLE_DISPLAY_SOURCE.get());
+        DisplaySource.BY_BLOCK_ENTITY.add(TFCBlockEntities.BLAST_FURNACE.get(),
+            TFC_BLAST_FURNACE_DISPLAY_SOURCE.get());
     }
 
     private static void addToCreativeTab(BuildCreativeModeTabContentsEvent event) {

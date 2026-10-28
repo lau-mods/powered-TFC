@@ -8,6 +8,7 @@ Blaze Burner の server tick は直上のTFC受熱設備へ Smouldering 80℃、
 水平に送風する Encased Fan は20 tickごとにBellows互換位置へ `100 + |RPM|` の空気を供給し、停止中と垂直送風時は供給しない。
 Converter は `FACING` 側を Create 接続、反対側を TFC 接続として `RPM × 2π / 1200` で双方向変換し、Redstone 通電中は停止する。
 Sequenced Assembly のBloom加工は921.00006℃以上で開始し、3 Pressing工程を3周する。TFC温度を持つ主入力は中間品へ温度と熱容量を継承し、完成時はTFC加熱定義を持つ完成品だけへ現在温度を継承する。非加熱完成品には熱情報を付与しない。
+Display Link の情報源 `poweredtfc:tfc_crucible` は温度数値とTFC温度色、`poweredtfc:tfc_blast_furnace` は温度数値、TFC温度色、投入物数、触媒数、燃料数、Compactを提供し、20 tickごとに設備状態を読み直す。
 COMMON config の8項目は `blaze_burner.*`、`encased_fan.*`、`mechanical_converters.*` に置き、値は動作時に読み直す。
 
 ## Harness runtime
