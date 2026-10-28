@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BlazeBurnerBlockEntityMixin",
-    "EncasedFanBlockEntityMixin"
+    "EncasedFanBlockEntityMixin",
+    "SequencedAssemblyRecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

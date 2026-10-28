@@ -73,6 +73,48 @@
       "name": "redstonestopandresume"
     },
     {
+      "acId": "AC-F006-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "temperaturegate"
+    },
+    {
+      "acId": "AC-F006-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "intermediatecoolscontinuesandreloads"
+    },
+    {
+      "acId": "AC-F006-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "completioncarriescurrenttemperature"
+    },
+    {
+      "acId": "AC-F006-004",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "nonheatableresulthasnoheat"
+    },
+    {
+      "acId": "AC-F007-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "rawbloomrecipe"
+    },
+    {
+      "acId": "AC-F007-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "wroughtironrecipe"
+    },
+    {
+      "acId": "AC-F007-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "temperaturegate"
+    },
+    {
       "acId": "AC-F012-001",
       "report": "run/gametest-results.xml",
       "classname": "minecraft:empty",
