@@ -1,1 +1,4 @@
-{ "parent": "create:block/gearshift/block" }
+{
+  "parent": "create:block/gearshift/block",
+  "render_type": "minecraft:cutout_mipped"
+}

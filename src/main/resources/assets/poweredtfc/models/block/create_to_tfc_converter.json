@@ -1,1 +1,4 @@
-{ "parent": "create:block/clutch/block" }
+{
+  "parent": "create:block/clutch/block",
+  "render_type": "minecraft:cutout_mipped"
+}
