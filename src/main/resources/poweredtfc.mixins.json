@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.poweredtfc.poweredtfc.mixin",
+  "package": "net.claustra01.poweredtfc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BasinBlockEntityMixin",
