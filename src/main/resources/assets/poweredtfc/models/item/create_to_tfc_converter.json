@@ -1,3 +1,1 @@
-{
-  "parent": "poweredtfc:block/create_to_tfc_converter"
-}
+{ "parent": "create:block/clutch/item" }

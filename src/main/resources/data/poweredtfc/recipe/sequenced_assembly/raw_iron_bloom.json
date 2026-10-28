@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "type": "tfc:and",
+    "children": [
+      {
+        "item": "tfc:raw_iron_bloom"
+      },
+      {
+        "type": "tfc:heat",
+        "min": 921.00006
+      }
+    ]
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "tfc:refined_iron_bloom"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:raw_iron_bloom"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfc:raw_iron_bloom"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:raw_iron_bloom"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfc:raw_iron_bloom"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:raw_iron_bloom"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfc:raw_iron_bloom"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "tfc:raw_iron_bloom"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "gameTests": [
+    {
+      "acId": "AC-F001-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stagetemperatures"
+    },
+    {
+      "acId": "AC-F001-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "aboveonlyandstopped"
+    },
+    {
+      "acId": "AC-F002-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "horizontalfanspeeds"
+    },
+    {
+      "acId": "AC-F002-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stoppedandverticalfan"
+    },
+    {
+      "acId": "AC-F003-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "createtotfcspeedfacesandnetwork"
+    },
+    {
+      "acId": "AC-F003-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stressandrecipes"
+    },
+    {
+      "acId": "AC-F003-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "createtotfcspeedfacesandnetwork"
+    },
+    {
+      "acId": "AC-F004-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "tfctocreatespeednoinputandloop"
+    },
+    {
+      "acId": "AC-F004-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "stressandrecipes"
+    },
+    {
+      "acId": "AC-F004-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "tfctocreatespeednoinputandloop"
+    },
+    {
+      "acId": "AC-F005-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "redstonestopandresume"
+    },
+    {
+      "acId": "AC-F005-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "redstonestopandresume"
+    },
+    {
+      "acId": "AC-F006-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "temperaturegate"
+    },
+    {
+      "acId": "AC-F006-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "intermediatecoolscontinuesandreloads"
+    },
+    {
+      "acId": "AC-F006-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "completioncarriescurrenttemperature"
+    },
+    {
+      "acId": "AC-F006-004",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "nonheatableresulthasnoheat"
+    },
+    {
+      "acId": "AC-F007-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "rawbloomrecipe"
+    },
+    {
+      "acId": "AC-F007-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "wroughtironrecipe"
+    },
+    {
+      "acId": "AC-F007-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "temperaturegate"
+    },
+    {
+      "acId": "AC-F008-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "crucibletemperaturemodes"
+    },
+    {
+      "acId": "AC-F008-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "cruciblenoheatandupdate"
+    },
+    {
+      "acId": "AC-F009-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "blastfurnacemodes"
+    },
+    {
+      "acId": "AC-F009-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "blastfurnaceliveupdate"
+    },
+    {
+      "acId": "AC-F010-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "fourfluidinputspersistandloadolddata"
+    },
+    {
+      "acId": "AC-F010-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "threeandfourfluidrecipesprocess"
+    },
+    {
+      "acId": "AC-F010-003",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "existingrecipesandoutputlimitsremain"
+    },
+    {
+      "acId": "AC-F011-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "allcreateitemsandconvertershaveoneclassification"
+    },
+    {
+      "acId": "AC-F011-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "classificationscontroltfcsizeweightandvesselstorage"
+    },
+    {
+      "acId": "AC-F012-001",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "configkeysdefaultsboundsbehaviorandpersistence"
+    },
+    {
+      "acId": "AC-F012-002",
+      "report": "run/gametest-results.xml",
+      "classname": "minecraft:empty",
+      "name": "configkeysdefaultsboundsbehaviorandpersistence"
+    }
+  ],
+  "e2e": [
+    {
+      "acId": "AC-F005-001",
+      "scenario": "tests/e2e/converter-redstone.mjs"
+    },
+    {
+      "acId": "AC-F005-002",
+      "scenario": "tests/e2e/converter-redstone.mjs"
+    },
+    {
+      "acId": "AC-F008-001",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F008-002",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F009-001",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F009-002",
+      "scenario": "tests/e2e/display-links.mjs"
+    },
+    {
+      "acId": "AC-F011-002",
+      "scenario": "tests/e2e/item-sizes.mjs"
+    }
+  ]
+}

@@ -1,21 +1,8 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:controller_rail",
-      "required": false
-    },
-    {
-      "id": "create:fake_track",
-      "required": false
-    },
-    {
-      "id": "create:incomplete_track",
-      "required": false
-    },
-    {
-      "id": "create:track",
-      "required": false
-    }
+    "create:controller_rail",
+    "create:incomplete_track",
+    "create:track"
   ]
 }

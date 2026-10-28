@@ -1,125 +1,35 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:black_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:blue_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:brown_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:cardboard_boots",
-      "required": false
-    },
-    {
-      "id": "create:cardboard_chestplate",
-      "required": false
-    },
-    {
-      "id": "create:cardboard_helmet",
-      "required": false
-    },
-    {
-      "id": "create:cardboard_leggings",
-      "required": false
-    },
-    {
-      "id": "create:copper_backtank",
-      "required": false
-    },
-    {
-      "id": "create:copper_backtank_placeable",
-      "required": false
-    },
-    {
-      "id": "create:copper_diving_boots",
-      "required": false
-    },
-    {
-      "id": "create:copper_diving_helmet",
-      "required": false
-    },
-    {
-      "id": "create:cyan_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:goggles",
-      "required": false
-    },
-    {
-      "id": "create:gray_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:green_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:light_blue_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:light_gray_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:lime_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:magenta_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_crafter",
-      "required": false
-    },
-    {
-      "id": "create:netherite_backtank",
-      "required": false
-    },
-    {
-      "id": "create:netherite_backtank_placeable",
-      "required": false
-    },
-    {
-      "id": "create:netherite_diving_boots",
-      "required": false
-    },
-    {
-      "id": "create:netherite_diving_helmet",
-      "required": false
-    },
-    {
-      "id": "create:orange_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:pink_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:purple_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:red_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:white_toolbox",
-      "required": false
-    },
-    {
-      "id": "create:yellow_toolbox",
-      "required": false
-    }
+    "create:black_toolbox",
+    "create:blue_toolbox",
+    "create:brown_toolbox",
+    "create:cardboard_boots",
+    "create:cardboard_chestplate",
+    "create:cardboard_helmet",
+    "create:cardboard_leggings",
+    "create:copper_backtank",
+    "create:copper_backtank_placeable",
+    "create:copper_diving_boots",
+    "create:copper_diving_helmet",
+    "create:cyan_toolbox",
+    "create:goggles",
+    "create:gray_toolbox",
+    "create:green_toolbox",
+    "create:light_blue_toolbox",
+    "create:light_gray_toolbox",
+    "create:lime_toolbox",
+    "create:magenta_toolbox",
+    "create:mechanical_crafter",
+    "create:netherite_backtank",
+    "create:netherite_backtank_placeable",
+    "create:netherite_diving_boots",
+    "create:netherite_diving_helmet",
+    "create:orange_toolbox",
+    "create:pink_toolbox",
+    "create:purple_toolbox",
+    "create:red_toolbox",
+    "create:white_toolbox",
+    "create:yellow_toolbox"
   ]
 }

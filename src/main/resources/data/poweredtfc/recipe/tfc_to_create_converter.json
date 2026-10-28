@@ -1,18 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "create:clutch"
-    },
-    {
-      "item": "create:cogwheel"
-    },
-    {
-      "item": "create:shaft"
-    }
+    { "item": "create:clutch" },
+    { "item": "create:cogwheel" },
+    { "item": "create:shaft" }
   ],
-  "result": {
-    "id": "poweredtfc:tfc_to_create_converter",
-    "count": 1
-  }
+  "result": { "id": "poweredtfc:tfc_to_create_converter", "count": 1 }
 }

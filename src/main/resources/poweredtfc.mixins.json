@@ -1,15 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.claustra01.poweredtfc.mixin",
+  "package": "dev.poweredtfc.poweredtfc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BlazeBurnerHeatMixin",
-    "BasinInputTankMixin",
-    "BasinRecipeFluidInputLimitMixin",
-    "EnchantmentMenuLapisMixin",
-    "EncasedFanBellowsMixin",
-    "SequencedAssemblyHeatMixin"
+    "BasinBlockEntityMixin",
+    "BasinRecipeMixin",
+    "BlazeBurnerBlockEntityMixin",
+    "EncasedFanBlockEntityMixin",
+    "SequencedAssemblyRecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

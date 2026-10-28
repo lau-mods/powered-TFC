@@ -1,18 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "create:clutch"
-    },
-    {
-      "item": "create:cogwheel"
-    },
-    {
-      "tag": "tfc:axles"
-    }
+    { "item": "create:clutch" },
+    { "item": "create:cogwheel" },
+    { "tag": "tfc:axles" }
   ],
-  "result": {
-    "id": "poweredtfc:create_to_tfc_converter",
-    "count": 1
-  }
+  "result": { "id": "poweredtfc:create_to_tfc_converter", "count": 1 }
 }

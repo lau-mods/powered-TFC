@@ -1,97 +1,26 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:attribute_filter",
-      "required": false
-    },
-    {
-      "id": "create:belt_connector",
-      "required": false
-    },
-    {
-      "id": "create:brass_hand",
-      "required": false
-    },
-    {
-      "id": "create:clipboard",
-      "required": false
-    },
-    {
-      "id": "create:crafter_slot_cover",
-      "required": false
-    },
-    {
-      "id": "create:crafting_blueprint",
-      "required": false
-    },
-    {
-      "id": "create:electron_tube",
-      "required": false
-    },
-    {
-      "id": "create:empty_schematic",
-      "required": false
-    },
-    {
-      "id": "create:filter",
-      "required": false
-    },
-    {
-      "id": "create:incomplete_precision_mechanism",
-      "required": false
-    },
-    {
-      "id": "create:linked_controller",
-      "required": false
-    },
-    {
-      "id": "create:package_filter",
-      "required": false
-    },
-    {
-      "id": "create:precision_mechanism",
-      "required": false
-    },
-    {
-      "id": "create:red_sand_paper",
-      "required": false
-    },
-    {
-      "id": "create:sand_paper",
-      "required": false
-    },
-    {
-      "id": "create:schedule",
-      "required": false
-    },
-    {
-      "id": "create:schematic",
-      "required": false
-    },
-    {
-      "id": "create:schematic_and_quill",
-      "required": false
-    },
-    {
-      "id": "create:shopping_list",
-      "required": false
-    },
-    {
-      "id": "create:transmitter",
-      "required": false
-    },
-    {
-      "id": "create:whisk",
-      "required": false
-    },
-    {
-      "id": "moreburners:heat_upgrade",
-      "required": false
-    },
-    {
-      "id": "moreburners:incomplete_heat_upgrade",
-      "required": false
-    }
+    "create:attribute_filter",
+    "create:belt_connector",
+    "create:brass_hand",
+    "create:clipboard",
+    "create:crafter_slot_cover",
+    "create:crafting_blueprint",
+    "create:electron_tube",
+    "create:empty_schematic",
+    "create:filter",
+    "create:incomplete_precision_mechanism",
+    "create:linked_controller",
+    "create:package_filter",
+    "create:precision_mechanism",
+    "create:red_sand_paper",
+    "create:sand_paper",
+    "create:schedule",
+    "create:schematic",
+    "create:schematic_and_quill",
+    "create:shopping_list",
+    "create:transmitter",
+    "create:whisk"
   ]
 }

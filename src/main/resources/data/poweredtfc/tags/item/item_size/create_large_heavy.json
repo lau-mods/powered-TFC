@@ -1,13 +1,7 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:framed_glass_trapdoor",
-      "required": false
-    },
-    {
-      "id": "create:train_trapdoor",
-      "required": false
-    }
+    "create:framed_glass_trapdoor",
+    "create:train_trapdoor"
   ]
 }

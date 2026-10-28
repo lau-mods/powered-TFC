@@ -1,0 +1,129 @@
+{
+  "milestones": [
+    {
+      "id": "M01",
+      "features": [
+        "F-001",
+        "F-002"
+      ],
+      "dependsOn": [],
+      "approach": "Set up the mod: replace the MDK example with mod_id=poweredtfc, a group/package, name and licence in gradle.properties and neoforge.mods.toml, and declare Create 6.0.10, TFC 4.2.12 and Patchouli 1.21.1-93-NEOFORGE as required dependencies with correct ordering (GR-001). Put the dependency JARs or Maven coordinates outside Git (.tmp/ or repositories), confirm Create and TFC APIs against the real 1.21.1 JARs, and fold v0.4.3 attribution into LICENCE (GR-009). Create a placeholder common config class with constants for the heat and air defaults, which M02 turns into real config entries. F-001: each server tick, read the Blaze Burner HeatLevel (Smouldering 80, Fading 1100, Kindled 1300, Seething 1800; no heat when none/invalid) and supply heat only to the block directly above that exposes TFC's heat capability (IHeatBlock / HeatCapability.BLOCK), the same way TFC's own heat sources do. Do not touch other positions. Prefer a block-entity tick hook or narrow Mixin on BlazeBurnerBlockEntity.tick. F-002: hook EncasedFanBlockEntity's server tick. When the fan is spinning and its airflow direction is horizontal, find the TFC bellows-receiving target (IBellowsConsumer / the Bellows offset logic in the TFC source) and apply air = (int)(baseAir + |RPM| * multiplier). Skip when stopped or when blowing up or down. Add GameTests for burner stages, the above-only target, fan at 64/128 RPM, and stopped/vertical cases. Run compileJava/build and a dedicated server start.",
+      "scope": [
+        "gradle.properties",
+        "build.gradle",
+        "settings.gradle",
+        "src/main/templates/META-INF/neoforge.mods.toml",
+        "src/main/java/com/example/examplemod/** (remove)",
+        "src/main/java/<pkg>/poweredtfc/PoweredTFC.java",
+        "src/main/java/<pkg>/poweredtfc/heat/**",
+        "src/main/java/<pkg>/poweredtfc/air/**",
+        "src/main/java/<pkg>/poweredtfc/mixin/** (BlazeBurner, EncasedFan)",
+        "src/main/resources/poweredtfc.mixins.json",
+        "src/main/resources/assets/poweredtfc/lang/en_us.json",
+        "LICENCE.txt",
+        "README.md",
+        "AGENTS.md",
+        "src/test or gametest sources"
+      ]
+    },
+    {
+      "id": "M02",
+      "features": [
+        "F-003",
+        "F-004",
+        "F-005",
+        "F-012"
+      ],
+      "dependsOn": [
+        "M01"
+      ],
+      "approach": "Register poweredtfc:create_to_tfc_converter and poweredtfc:tfc_to_create_converter, each with a block, BlockItem and block entity. Both share a directional base with FACING and POWERED blockstate properties that match the v0.4.3 blockstates/models, and import those assets plus lang, loot_table and shapeless recipes (Clutch + Cogwheel + #tfc:axles; Clutch + Cogwheel + Shaft). Keep Create model references instead of copying Create assets. Create→TFC is a Create KineticBlockEntity (stress impact registered through Create's BlockStressValues/config hook) that only accepts shaft input on its Create face. It exposes TFC's rotation-node API (Node/RotationNetworkManager, verified in the TFC 4.2.12 source) on the opposite face only, with speed rad/tick = RPM*2π/1200 and a direction derived from facing and the sign of the RPM. TFC's existing network rules handle conflicts. TFC→Create is a GeneratingKineticBlockEntity. It reads the rotation of the directly adjacent TFC node that outputs into its input face, generates RPM = rad/tick*1200/2π with stress capacity from config, and outputs on the opposite face. It generates nothing when there is no valid input or when the input source is a create_to_tfc converter (or a node backed by one), so the two converters cannot form a direct loop. Redstone: neighborChanged updates POWERED. While powered, both converters stop output (speed 0 / capacity 0 / impact removed) and resume when the signal clears, without re-placing. F-012: replace the M01 constants with a ModConfigSpec COMMON config holding exactly the 8 keys (blaze_burner.*, encased_fan.*, mechanical_converters.*) with the specified defaults and ranges, using NeoForge range validation so out-of-range values get corrected. Read values live so a reload takes effect, and refresh the Create stress values on config reload. Persist converter state in NBT and handle chunk reload. Add GameTests for the 120 RPM ↔ π/5 conversion, wrong-face cases, 64 SU, recipes, the redstone stop/resume cycle and config bounds. Check dedicated-server class loading for any client renderers.",
+      "scope": [
+        "src/main/java/<pkg>/poweredtfc/registry/** (blocks, items, block entities, creative tab)",
+        "src/main/java/<pkg>/poweredtfc/converter/**",
+        "src/main/java/<pkg>/poweredtfc/config/**",
+        "src/main/java/<pkg>/poweredtfc/client/** (renderers/visuals if needed)",
+        "src/main/java/<pkg>/poweredtfc/heat/**, air/** (switch to config)",
+        "src/main/resources/assets/poweredtfc/blockstates/**",
+        "src/main/resources/assets/poweredtfc/models/**",
+        "src/main/resources/assets/poweredtfc/lang/en_us.json",
+        "src/main/resources/data/poweredtfc/recipe/**",
+        "src/main/resources/data/poweredtfc/loot_table/**",
+        "src/main/resources/data/minecraft/tags/block/mineable/** (if needed)",
+        "AGENTS.md",
+        "gametest sources"
+      ]
+    },
+    {
+      "id": "M03",
+      "features": [
+        "F-006",
+        "F-007"
+      ],
+      "dependsOn": [
+        "M01"
+      ],
+      "approach": "Add TFC temperature handling to Create Sequenced Assembly. Add a main-input heat condition, either through a custom ingredient type (e.g. a TFC heat-requiring ingredient checked with HeatCapability, matching the format of the v0.4.3 sequenced_assembly recipe assets) or by using TFC's own heated ingredient, checked only when the recipe starts (the first match on the raw input). Through a narrow Mixin or hook on SequencedAssemblyRecipe's transitional-item creation and advancement, copy the input's temperature and heat capacity onto the transitional item when it is created and when it advances between steps, so it cools naturally through TFC's heat component. Already-started transitional items match by sequence state, not temperature, so cooling does not interrupt them. On completion, copy the current temperature to the result if it has a TFC heat definition, and add no heat data if it does not. Import the two v0.4.3 recipes (raw_iron_bloom → refined_iron_bloom, refined_iron_bloom → wrought_iron ingot; minimum 921.00006℃, 3 pressing steps × 3 loops) and check the JSON against Create 6.0.10's recipe serializer. Add GameTests or recipe-level tests for: start accepted at ≥921 and rejected at 920, cooling mid-process without interruption, temperature carried to the result, and a non-heatable result with no heat data. Confirm the transitional item's heat survives save/reload.",
+      "scope": [
+        "src/main/java/<pkg>/poweredtfc/assembly/**",
+        "src/main/java/<pkg>/poweredtfc/mixin/** (SequencedAssembly related)",
+        "src/main/resources/poweredtfc.mixins.json",
+        "src/main/resources/data/poweredtfc/recipe/sequenced_assembly/** (or v0.4.3 path)",
+        "AGENTS.md",
+        "gametest sources"
+      ]
+    },
+    {
+      "id": "M04",
+      "features": [
+        "F-008",
+        "F-009"
+      ],
+      "dependsOn": [
+        "M01"
+      ],
+      "approach": "Register two Create Display Link sources through Create 6.0.10's DisplaySource registry, with IDs poweredtfc:tfc_crucible and poweredtfc:tfc_blast_furnace, and attach them to the TFC crucible and blast furnace block entities. They share a common base for temperature output: numeric ℃ and TFC temperature color via TFC's Heat tooltip/color helpers, with 'No heat' text when the temperature is below TFC's lowest heat tier. The crucible source offers 2 modes. The blast furnace source offers 6 modes: temperature, color, input count, catalyst count, fuel count, and compact as 'temp℃ | input | catalyst | fuel', read from BlastFurnaceBlockEntity's public state. Values are recomputed on each Display Link refresh, so no re-placing is needed. Put the mode-selection UI in client-only code paths following Create's DisplaySource API, and add lang keys from v0.4.3. Test the value formatting with GameTests and check dedicated-server class loading.",
+      "scope": [
+        "src/main/java/<pkg>/poweredtfc/display/**",
+        "src/main/java/<pkg>/poweredtfc/registry/** (display source registration)",
+        "src/main/resources/assets/poweredtfc/lang/en_us.json",
+        "AGENTS.md",
+        "gametest sources"
+      ]
+    },
+    {
+      "id": "M05",
+      "features": [
+        "F-010"
+      ],
+      "dependsOn": [
+        "M01"
+      ],
+      "approach": "Extend the Create BasinBlockEntity input fluid inventory from 2 tanks to 4 independent 1000 mB tanks with a narrow Mixin on its input SmartFluidTankBehaviour construction. Leave the output tank count and capacity unchanged. Relax the fluid-ingredient-count limit in Basin recipe matching and in the mixing/compacting recipe validation (ProcessingRecipe max fluid inputs) to 4, for input only. Make sure NBT save/load handles the added tanks and that worlds with existing 2-tank basins load cleanly. Add GameTests or test recipes for: four distinct fluids each capped at 1000 mB, 3- and 4-fluid mixing/compacting recipes, and unchanged vanilla Create 1–2 fluid recipes and output limits.",
+      "scope": [
+        "src/main/java/<pkg>/poweredtfc/mixin/** (Basin, ProcessingRecipe/BasinRecipe)",
+        "src/main/java/<pkg>/poweredtfc/basin/**",
+        "src/main/resources/poweredtfc.mixins.json",
+        "AGENTS.md",
+        "gametest sources/test data"
+      ]
+    },
+    {
+      "id": "M06",
+      "features": [
+        "F-011"
+      ],
+      "dependsOn": [
+        "M02"
+      ],
+      "approach": "Import the v0.4.3 TFC item_size definitions and item_size tags into data/poweredtfc. Check them against the actual Create 6.0.10 item registry list (extracted from the JAR into .tmp/) and the 2 converter IDs: all 740 Create IDs + 2 converters each get exactly one size/weight classification, with none missing, none duplicated and no references to missing IDs. Fix or remove stale entries so the data stays consistent with TFC 4.2.12's item_size JSON format. Add a .tmp/ verification script for coverage and uniqueness, plus a GameTest that checks representative items (e.g. small vs huge, light vs very heavy) through TFC's ItemSizeManager and a size-restricted container (e.g. TFC vessel/small container). Run a full JSON syntax check across all resources and finish with ./gradlew build plus a dedicated server start.",
+      "scope": [
+        "src/main/resources/data/poweredtfc/tfc/item_size/**",
+        "src/main/resources/data/poweredtfc/tags/item/** (item_size tags)",
+        "src/main/resources/data/tfc/tags/** (if intended compat tags)",
+        "AGENTS.md",
+        "gametest sources"
+      ]
+    }
+  ]
+}

@@ -1,25 +1,10 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:cinder_flour",
-      "required": false
-    },
-    {
-      "id": "create:powdered_obsidian",
-      "required": false
-    },
-    {
-      "id": "create:pulp",
-      "required": false
-    },
-    {
-      "id": "create:tree_fertilizer",
-      "required": false
-    },
-    {
-      "id": "create:wheat_flour",
-      "required": false
-    }
+    "create:cinder_flour",
+    "create:powdered_obsidian",
+    "create:pulp",
+    "create:tree_fertilizer",
+    "create:wheat_flour"
   ]
 }

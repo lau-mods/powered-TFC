@@ -1,1925 +1,467 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:acacia_window",
-      "required": false
-    },
-    {
-      "id": "create:acacia_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:adjustable_chain_gearshift",
-      "required": false
-    },
-    {
-      "id": "create:analog_lever",
-      "required": false
-    },
-    {
-      "id": "create:andesite_alloy_block",
-      "required": false
-    },
-    {
-      "id": "create:andesite_bars",
-      "required": false
-    },
-    {
-      "id": "create:andesite_belt_funnel",
-      "required": false
-    },
-    {
-      "id": "create:andesite_casing",
-      "required": false
-    },
-    {
-      "id": "create:andesite_encased_cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:andesite_encased_large_cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:andesite_encased_shaft",
-      "required": false
-    },
-    {
-      "id": "create:andesite_funnel",
-      "required": false
-    },
-    {
-      "id": "create:andesite_ladder",
-      "required": false
-    },
-    {
-      "id": "create:andesite_pillar",
-      "required": false
-    },
-    {
-      "id": "create:andesite_scaffolding",
-      "required": false
-    },
-    {
-      "id": "create:andesite_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:andesite_tunnel",
-      "required": false
-    },
-    {
-      "id": "create:asurine",
-      "required": false
-    },
-    {
-      "id": "create:asurine_pillar",
-      "required": false
-    },
-    {
-      "id": "create:bamboo_window",
-      "required": false
-    },
-    {
-      "id": "create:bamboo_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:bar_of_chocolate",
-      "required": false
-    },
-    {
-      "id": "create:belt",
-      "required": false
-    },
-    {
-      "id": "create:birch_window",
-      "required": false
-    },
-    {
-      "id": "create:birch_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:black_seat",
-      "required": false
-    },
-    {
-      "id": "create:black_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:black_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:blaze_cake",
-      "required": false
-    },
-    {
-      "id": "create:blaze_cake_base",
-      "required": false
-    },
-    {
-      "id": "create:blue_seat",
-      "required": false
-    },
-    {
-      "id": "create:blue_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:blue_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:bound_cardboard_block",
-      "required": false
-    },
-    {
-      "id": "create:brass_bars",
-      "required": false
-    },
-    {
-      "id": "create:brass_belt_funnel",
-      "required": false
-    },
-    {
-      "id": "create:brass_block",
-      "required": false
-    },
-    {
-      "id": "create:brass_casing",
-      "required": false
-    },
-    {
-      "id": "create:brass_encased_cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:brass_encased_large_cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:brass_encased_shaft",
-      "required": false
-    },
-    {
-      "id": "create:brass_funnel",
-      "required": false
-    },
-    {
-      "id": "create:brass_ladder",
-      "required": false
-    },
-    {
-      "id": "create:brass_scaffolding",
-      "required": false
-    },
-    {
-      "id": "create:brass_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:brass_tunnel",
-      "required": false
-    },
-    {
-      "id": "create:brown_seat",
-      "required": false
-    },
-    {
-      "id": "create:brown_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:brown_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:builders_tea",
-      "required": false
-    },
-    {
-      "id": "create:calcite_pillar",
-      "required": false
-    },
-    {
-      "id": "create:cardboard_block",
-      "required": false
-    },
-    {
-      "id": "create:cart_assembler",
-      "required": false
-    },
-    {
-      "id": "create:chain_conveyor",
-      "required": false
-    },
-    {
-      "id": "create:cherry_window",
-      "required": false
-    },
-    {
-      "id": "create:cherry_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:chocolate",
-      "required": false
-    },
-    {
-      "id": "create:chocolate_glazed_berries",
-      "required": false
-    },
-    {
-      "id": "create:chute",
-      "required": false
-    },
-    {
-      "id": "create:clockwork_bearing",
-      "required": false
-    },
-    {
-      "id": "create:clutch",
-      "required": false
-    },
-    {
-      "id": "create:cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:content_observer",
-      "required": false
-    },
-    {
-      "id": "create:contraption_controls",
-      "required": false
-    },
-    {
-      "id": "create:controls",
-      "required": false
-    },
-    {
-      "id": "create:copper_bars",
-      "required": false
-    },
-    {
-      "id": "create:copper_casing",
-      "required": false
-    },
-    {
-      "id": "create:copper_ladder",
-      "required": false
-    },
-    {
-      "id": "create:copper_scaffolding",
-      "required": false
-    },
-    {
-      "id": "create:copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:copper_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:copper_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:copycat_bars",
-      "required": false
-    },
-    {
-      "id": "create:copycat_base",
-      "required": false
-    },
-    {
-      "id": "create:copycat_panel",
-      "required": false
-    },
-    {
-      "id": "create:copycat_step",
-      "required": false
-    },
-    {
-      "id": "create:creative_blaze_cake",
-      "required": false
-    },
-    {
-      "id": "create:creative_motor",
-      "required": false
-    },
-    {
-      "id": "create:crimsite",
-      "required": false
-    },
-    {
-      "id": "create:crimsite_pillar",
-      "required": false
-    },
-    {
-      "id": "create:crimson_window",
-      "required": false
-    },
-    {
-      "id": "create:crimson_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:crushing_wheel_controller",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_andesite_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_asurine_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_calcite_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_crimsite_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_deepslate_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_diorite_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_dripstone_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_granite_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_limestone_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_ochrum_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_scorchia_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_scoria_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_tuff_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium_bricks",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium_stairs",
-      "required": false
-    },
-    {
-      "id": "create:cut_veridium_wall",
-      "required": false
-    },
-    {
-      "id": "create:cyan_seat",
-      "required": false
-    },
-    {
-      "id": "create:cyan_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:cyan_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:dark_oak_window",
-      "required": false
-    },
-    {
-      "id": "create:dark_oak_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:deepslate_pillar",
-      "required": false
-    },
-    {
-      "id": "create:deepslate_zinc_ore",
-      "required": false
-    },
-    {
-      "id": "create:deployer",
-      "required": false
-    },
-    {
-      "id": "create:depot",
-      "required": false
-    },
-    {
-      "id": "create:desk_bell",
-      "required": false
-    },
-    {
-      "id": "create:diorite_pillar",
-      "required": false
-    },
-    {
-      "id": "create:display_link",
-      "required": false
-    },
-    {
-      "id": "create:dough",
-      "required": false
-    },
-    {
-      "id": "create:dripstone_pillar",
-      "required": false
-    },
-    {
-      "id": "create:elevator_contact",
-      "required": false
-    },
-    {
-      "id": "create:elevator_pulley",
-      "required": false
-    },
-    {
-      "id": "create:encased_chain_drive",
-      "required": false
-    },
-    {
-      "id": "create:encased_fan",
-      "required": false
-    },
-    {
-      "id": "create:encased_fluid_pipe",
-      "required": false
-    },
-    {
-      "id": "create:experience_block",
-      "required": false
-    },
-    {
-      "id": "create:exposed_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:exposed_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:exposed_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:exposed_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:fluid_pipe",
-      "required": false
-    },
-    {
-      "id": "create:fluid_valve",
-      "required": false
-    },
-    {
-      "id": "create:flywheel",
-      "required": false
-    },
-    {
-      "id": "create:framed_glass",
-      "required": false
-    },
-    {
-      "id": "create:framed_glass_pane",
-      "required": false
-    },
-    {
-      "id": "create:gantry_carriage",
-      "required": false
-    },
-    {
-      "id": "create:gantry_shaft",
-      "required": false
-    },
-    {
-      "id": "create:gearbox",
-      "required": false
-    },
-    {
-      "id": "create:gearshift",
-      "required": false
-    },
-    {
-      "id": "create:glass_fluid_pipe",
-      "required": false
-    },
-    {
-      "id": "create:granite_pillar",
-      "required": false
-    },
-    {
-      "id": "create:gray_seat",
-      "required": false
-    },
-    {
-      "id": "create:gray_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:gray_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:green_seat",
-      "required": false
-    },
-    {
-      "id": "create:green_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:green_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:hand_crank",
-      "required": false
-    },
-    {
-      "id": "create:haunted_bell",
-      "required": false
-    },
-    {
-      "id": "create:honey",
-      "required": false
-    },
-    {
-      "id": "create:honeyed_apple",
-      "required": false
-    },
-    {
-      "id": "create:horizontal_framed_glass",
-      "required": false
-    },
-    {
-      "id": "create:horizontal_framed_glass_pane",
-      "required": false
-    },
-    {
-      "id": "create:hose_pulley",
-      "required": false
-    },
-    {
-      "id": "create:industrial_iron_block",
-      "required": false
-    },
-    {
-      "id": "create:industrial_iron_window",
-      "required": false
-    },
-    {
-      "id": "create:industrial_iron_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:item_drain",
-      "required": false
-    },
-    {
-      "id": "create:item_hatch",
-      "required": false
-    },
-    {
-      "id": "create:jungle_window",
-      "required": false
-    },
-    {
-      "id": "create:jungle_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:large_cogwheel",
-      "required": false
-    },
-    {
-      "id": "create:layered_andesite",
-      "required": false
-    },
-    {
-      "id": "create:layered_asurine",
-      "required": false
-    },
-    {
-      "id": "create:layered_calcite",
-      "required": false
-    },
-    {
-      "id": "create:layered_crimsite",
-      "required": false
-    },
-    {
-      "id": "create:layered_deepslate",
-      "required": false
-    },
-    {
-      "id": "create:layered_diorite",
-      "required": false
-    },
-    {
-      "id": "create:layered_dripstone",
-      "required": false
-    },
-    {
-      "id": "create:layered_granite",
-      "required": false
-    },
-    {
-      "id": "create:layered_limestone",
-      "required": false
-    },
-    {
-      "id": "create:layered_ochrum",
-      "required": false
-    },
-    {
-      "id": "create:layered_scorchia",
-      "required": false
-    },
-    {
-      "id": "create:layered_scoria",
-      "required": false
-    },
-    {
-      "id": "create:layered_tuff",
-      "required": false
-    },
-    {
-      "id": "create:layered_veridium",
-      "required": false
-    },
-    {
-      "id": "create:lectern_controller",
-      "required": false
-    },
-    {
-      "id": "create:light_blue_seat",
-      "required": false
-    },
-    {
-      "id": "create:light_blue_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:light_blue_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:light_gray_seat",
-      "required": false
-    },
-    {
-      "id": "create:light_gray_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:light_gray_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:lime_seat",
-      "required": false
-    },
-    {
-      "id": "create:lime_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:lime_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:limestone",
-      "required": false
-    },
-    {
-      "id": "create:limestone_pillar",
-      "required": false
-    },
-    {
-      "id": "create:linear_chassis",
-      "required": false
-    },
-    {
-      "id": "create:magenta_seat",
-      "required": false
-    },
-    {
-      "id": "create:magenta_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:magenta_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:mangrove_window",
-      "required": false
-    },
-    {
-      "id": "create:mangrove_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_arm",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_bearing",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_drill",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_harvester",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_mixer",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_piston",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_piston_head",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_plough",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_press",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_pump",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_roller",
-      "required": false
-    },
-    {
-      "id": "create:mechanical_saw",
-      "required": false
-    },
-    {
-      "id": "create:metal_bracket",
-      "required": false
-    },
-    {
-      "id": "create:metal_girder",
-      "required": false
-    },
-    {
-      "id": "create:metal_girder_encased_shaft",
-      "required": false
-    },
-    {
-      "id": "create:minecart_anchor",
-      "required": false
-    },
-    {
-      "id": "create:nozzle",
-      "required": false
-    },
-    {
-      "id": "create:oak_window",
-      "required": false
-    },
-    {
-      "id": "create:oak_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:ochrum",
-      "required": false
-    },
-    {
-      "id": "create:ochrum_pillar",
-      "required": false
-    },
-    {
-      "id": "create:orange_seat",
-      "required": false
-    },
-    {
-      "id": "create:orange_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:orange_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:ornate_iron_window",
-      "required": false
-    },
-    {
-      "id": "create:ornate_iron_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:oxidized_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:oxidized_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:oxidized_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:oxidized_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:packager",
-      "required": false
-    },
-    {
-      "id": "create:peculiar_bell",
-      "required": false
-    },
-    {
-      "id": "create:pink_seat",
-      "required": false
-    },
-    {
-      "id": "create:pink_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:pink_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:piston_extension_pole",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_andesite",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_andesite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_andesite_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_asurine",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_asurine_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_asurine_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_calcite",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_calcite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_calcite_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_crimsite",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_crimsite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_crimsite_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_deepslate",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_deepslate_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_deepslate_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_diorite",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_diorite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_diorite_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_dripstone",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_dripstone_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_dripstone_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_granite",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_granite_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_granite_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_limestone",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_limestone_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_limestone_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_ochrum",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_ochrum_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_ochrum_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scorchia",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scorchia_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scorchia_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scoria",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scoria_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_scoria_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_tuff",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_tuff_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_tuff_wall",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_veridium",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_veridium_stairs",
-      "required": false
-    },
-    {
-      "id": "create:polished_cut_veridium_wall",
-      "required": false
-    },
-    {
-      "id": "create:portable_fluid_interface",
-      "required": false
-    },
-    {
-      "id": "create:portable_storage_interface",
-      "required": false
-    },
-    {
-      "id": "create:powered_latch",
-      "required": false
-    },
-    {
-      "id": "create:powered_shaft",
-      "required": false
-    },
-    {
-      "id": "create:powered_toggle_latch",
-      "required": false
-    },
-    {
-      "id": "create:pulley_magnet",
-      "required": false
-    },
-    {
-      "id": "create:pulse_extender",
-      "required": false
-    },
-    {
-      "id": "create:pulse_repeater",
-      "required": false
-    },
-    {
-      "id": "create:pulse_timer",
-      "required": false
-    },
-    {
-      "id": "create:purple_seat",
-      "required": false
-    },
-    {
-      "id": "create:purple_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:purple_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:radial_chassis",
-      "required": false
-    },
-    {
-      "id": "create:railway_casing",
-      "required": false
-    },
-    {
-      "id": "create:raw_zinc_block",
-      "required": false
-    },
-    {
-      "id": "create:red_seat",
-      "required": false
-    },
-    {
-      "id": "create:red_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:red_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:redstone_contact",
-      "required": false
-    },
-    {
-      "id": "create:redstone_link",
-      "required": false
-    },
-    {
-      "id": "create:redstone_requester",
-      "required": false
-    },
-    {
-      "id": "create:refined_radiance_casing",
-      "required": false
-    },
-    {
-      "id": "create:repackager",
-      "required": false
-    },
-    {
-      "id": "create:rope_pulley",
-      "required": false
-    },
-    {
-      "id": "create:rose_quartz_block",
-      "required": false
-    },
-    {
-      "id": "create:rose_quartz_tiles",
-      "required": false
-    },
-    {
-      "id": "create:rotation_speed_controller",
-      "required": false
-    },
-    {
-      "id": "create:schematicannon",
-      "required": false
-    },
-    {
-      "id": "create:scorchia",
-      "required": false
-    },
-    {
-      "id": "create:scorchia_pillar",
-      "required": false
-    },
-    {
-      "id": "create:scoria",
-      "required": false
-    },
-    {
-      "id": "create:scoria_pillar",
-      "required": false
-    },
-    {
-      "id": "create:secondary_linear_chassis",
-      "required": false
-    },
-    {
-      "id": "create:sequenced_gearshift",
-      "required": false
-    },
-    {
-      "id": "create:shadow_steel_casing",
-      "required": false
-    },
-    {
-      "id": "create:shaft",
-      "required": false
-    },
-    {
-      "id": "create:small_andesite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_andesite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_andesite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_asurine_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_asurine_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_asurine_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_calcite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_calcite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_calcite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_crimsite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_crimsite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_crimsite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_deepslate_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_deepslate_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_deepslate_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_diorite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_diorite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_diorite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_dripstone_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_dripstone_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_dripstone_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_granite_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_granite_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_granite_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_limestone_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_limestone_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_limestone_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_ochrum_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_ochrum_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_ochrum_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_rose_quartz_tiles",
-      "required": false
-    },
-    {
-      "id": "create:small_scorchia_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_scorchia_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_scorchia_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_scoria_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_scoria_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_scoria_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_tuff_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_tuff_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_tuff_bricks",
-      "required": false
-    },
-    {
-      "id": "create:small_veridium_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "create:small_veridium_brick_wall",
-      "required": false
-    },
-    {
-      "id": "create:small_veridium_bricks",
-      "required": false
-    },
-    {
-      "id": "create:smart_chute",
-      "required": false
-    },
-    {
-      "id": "create:smart_fluid_pipe",
-      "required": false
-    },
-    {
-      "id": "create:spout",
-      "required": false
-    },
-    {
-      "id": "create:spruce_window",
-      "required": false
-    },
-    {
-      "id": "create:spruce_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:steam_engine",
-      "required": false
-    },
-    {
-      "id": "create:steam_whistle",
-      "required": false
-    },
-    {
-      "id": "create:steam_whistle_extension",
-      "required": false
-    },
-    {
-      "id": "create:sticker",
-      "required": false
-    },
-    {
-      "id": "create:sticky_mechanical_piston",
-      "required": false
-    },
-    {
-      "id": "create:stock_link",
-      "required": false
-    },
-    {
-      "id": "create:stock_ticker",
-      "required": false
-    },
-    {
-      "id": "create:stockpile_switch",
-      "required": false
-    },
-    {
-      "id": "create:sweet_roll",
-      "required": false
-    },
-    {
-      "id": "create:tiled_glass",
-      "required": false
-    },
-    {
-      "id": "create:tiled_glass_pane",
-      "required": false
-    },
-    {
-      "id": "create:track_observer",
-      "required": false
-    },
-    {
-      "id": "create:track_signal",
-      "required": false
-    },
-    {
-      "id": "create:track_station",
-      "required": false
-    },
-    {
-      "id": "create:tuff_pillar",
-      "required": false
-    },
-    {
-      "id": "create:turntable",
-      "required": false
-    },
-    {
-      "id": "create:veridium",
-      "required": false
-    },
-    {
-      "id": "create:veridium_pillar",
-      "required": false
-    },
-    {
-      "id": "create:vertical_framed_glass",
-      "required": false
-    },
-    {
-      "id": "create:vertical_framed_glass_pane",
-      "required": false
-    },
-    {
-      "id": "create:vertical_gearbox",
-      "required": false
-    },
-    {
-      "id": "create:warped_window",
-      "required": false
-    },
-    {
-      "id": "create:warped_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:waxed_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_exposed_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_exposed_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_exposed_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_exposed_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_oxidized_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_oxidized_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_oxidized_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_oxidized_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_weathered_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_weathered_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:waxed_weathered_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:waxed_weathered_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:weathered_copper_shingle_stairs",
-      "required": false
-    },
-    {
-      "id": "create:weathered_copper_shingles",
-      "required": false
-    },
-    {
-      "id": "create:weathered_copper_tile_stairs",
-      "required": false
-    },
-    {
-      "id": "create:weathered_copper_tiles",
-      "required": false
-    },
-    {
-      "id": "create:weathered_iron_block",
-      "required": false
-    },
-    {
-      "id": "create:weathered_iron_window",
-      "required": false
-    },
-    {
-      "id": "create:weathered_iron_window_pane",
-      "required": false
-    },
-    {
-      "id": "create:weighted_ejector",
-      "required": false
-    },
-    {
-      "id": "create:white_seat",
-      "required": false
-    },
-    {
-      "id": "create:white_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:white_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:windmill_bearing",
-      "required": false
-    },
-    {
-      "id": "create:wooden_bracket",
-      "required": false
-    },
-    {
-      "id": "create:yellow_seat",
-      "required": false
-    },
-    {
-      "id": "create:yellow_table_cloth",
-      "required": false
-    },
-    {
-      "id": "create:yellow_valve_handle",
-      "required": false
-    },
-    {
-      "id": "create:zinc_block",
-      "required": false
-    },
-    {
-      "id": "create:zinc_ore",
-      "required": false
-    },
-    {
-      "id": "moreburners:heat_converter",
-      "required": false
-    },
-    {
-      "id": "poweredtfc:create_to_tfc_converter",
-      "required": false
-    },
-    {
-      "id": "poweredtfc:tfc_to_create_converter",
-      "required": false
-    }
+    "create:acacia_window",
+    "create:acacia_window_pane",
+    "create:adjustable_chain_gearshift",
+    "create:analog_lever",
+    "create:andesite_alloy_block",
+    "create:andesite_bars",
+    "create:andesite_casing",
+    "create:andesite_encased_cogwheel",
+    "create:andesite_encased_large_cogwheel",
+    "create:andesite_encased_shaft",
+    "create:andesite_funnel",
+    "create:andesite_ladder",
+    "create:andesite_pillar",
+    "create:andesite_scaffolding",
+    "create:andesite_table_cloth",
+    "create:andesite_tunnel",
+    "create:asurine",
+    "create:asurine_pillar",
+    "create:bamboo_window",
+    "create:bamboo_window_pane",
+    "create:bar_of_chocolate",
+    "create:birch_window",
+    "create:birch_window_pane",
+    "create:black_seat",
+    "create:black_table_cloth",
+    "create:black_valve_handle",
+    "create:blaze_cake",
+    "create:blaze_cake_base",
+    "create:blue_seat",
+    "create:blue_table_cloth",
+    "create:blue_valve_handle",
+    "create:bound_cardboard_block",
+    "create:brass_bars",
+    "create:brass_block",
+    "create:brass_casing",
+    "create:brass_encased_cogwheel",
+    "create:brass_encased_large_cogwheel",
+    "create:brass_encased_shaft",
+    "create:brass_funnel",
+    "create:brass_ladder",
+    "create:brass_scaffolding",
+    "create:brass_table_cloth",
+    "create:brass_tunnel",
+    "create:brown_seat",
+    "create:brown_table_cloth",
+    "create:brown_valve_handle",
+    "create:builders_tea",
+    "create:calcite_pillar",
+    "create:cardboard_block",
+    "create:cart_assembler",
+    "create:chain_conveyor",
+    "create:cherry_window",
+    "create:cherry_window_pane",
+    "create:chocolate_glazed_berries",
+    "create:chute",
+    "create:clockwork_bearing",
+    "create:clutch",
+    "create:cogwheel",
+    "create:content_observer",
+    "create:contraption_controls",
+    "create:controls",
+    "create:copper_bars",
+    "create:copper_casing",
+    "create:copper_ladder",
+    "create:copper_scaffolding",
+    "create:copper_shingle_stairs",
+    "create:copper_shingles",
+    "create:copper_table_cloth",
+    "create:copper_tile_stairs",
+    "create:copper_tiles",
+    "create:copper_valve_handle",
+    "create:copycat_panel",
+    "create:copycat_step",
+    "create:creative_blaze_cake",
+    "create:creative_motor",
+    "create:crimsite",
+    "create:crimsite_pillar",
+    "create:crimson_window",
+    "create:crimson_window_pane",
+    "create:cut_andesite",
+    "create:cut_andesite_brick_stairs",
+    "create:cut_andesite_brick_wall",
+    "create:cut_andesite_bricks",
+    "create:cut_andesite_stairs",
+    "create:cut_andesite_wall",
+    "create:cut_asurine",
+    "create:cut_asurine_brick_stairs",
+    "create:cut_asurine_brick_wall",
+    "create:cut_asurine_bricks",
+    "create:cut_asurine_stairs",
+    "create:cut_asurine_wall",
+    "create:cut_calcite",
+    "create:cut_calcite_brick_stairs",
+    "create:cut_calcite_brick_wall",
+    "create:cut_calcite_bricks",
+    "create:cut_calcite_stairs",
+    "create:cut_calcite_wall",
+    "create:cut_crimsite",
+    "create:cut_crimsite_brick_stairs",
+    "create:cut_crimsite_brick_wall",
+    "create:cut_crimsite_bricks",
+    "create:cut_crimsite_stairs",
+    "create:cut_crimsite_wall",
+    "create:cut_deepslate",
+    "create:cut_deepslate_brick_stairs",
+    "create:cut_deepslate_brick_wall",
+    "create:cut_deepslate_bricks",
+    "create:cut_deepslate_stairs",
+    "create:cut_deepslate_wall",
+    "create:cut_diorite",
+    "create:cut_diorite_brick_stairs",
+    "create:cut_diorite_brick_wall",
+    "create:cut_diorite_bricks",
+    "create:cut_diorite_stairs",
+    "create:cut_diorite_wall",
+    "create:cut_dripstone",
+    "create:cut_dripstone_brick_stairs",
+    "create:cut_dripstone_brick_wall",
+    "create:cut_dripstone_bricks",
+    "create:cut_dripstone_stairs",
+    "create:cut_dripstone_wall",
+    "create:cut_granite",
+    "create:cut_granite_brick_stairs",
+    "create:cut_granite_brick_wall",
+    "create:cut_granite_bricks",
+    "create:cut_granite_stairs",
+    "create:cut_granite_wall",
+    "create:cut_limestone",
+    "create:cut_limestone_brick_stairs",
+    "create:cut_limestone_brick_wall",
+    "create:cut_limestone_bricks",
+    "create:cut_limestone_stairs",
+    "create:cut_limestone_wall",
+    "create:cut_ochrum",
+    "create:cut_ochrum_brick_stairs",
+    "create:cut_ochrum_brick_wall",
+    "create:cut_ochrum_bricks",
+    "create:cut_ochrum_stairs",
+    "create:cut_ochrum_wall",
+    "create:cut_scorchia",
+    "create:cut_scorchia_brick_stairs",
+    "create:cut_scorchia_brick_wall",
+    "create:cut_scorchia_bricks",
+    "create:cut_scorchia_stairs",
+    "create:cut_scorchia_wall",
+    "create:cut_scoria",
+    "create:cut_scoria_brick_stairs",
+    "create:cut_scoria_brick_wall",
+    "create:cut_scoria_bricks",
+    "create:cut_scoria_stairs",
+    "create:cut_scoria_wall",
+    "create:cut_tuff",
+    "create:cut_tuff_brick_stairs",
+    "create:cut_tuff_brick_wall",
+    "create:cut_tuff_bricks",
+    "create:cut_tuff_stairs",
+    "create:cut_tuff_wall",
+    "create:cut_veridium",
+    "create:cut_veridium_brick_stairs",
+    "create:cut_veridium_brick_wall",
+    "create:cut_veridium_bricks",
+    "create:cut_veridium_stairs",
+    "create:cut_veridium_wall",
+    "create:cyan_seat",
+    "create:cyan_table_cloth",
+    "create:cyan_valve_handle",
+    "create:dark_oak_window",
+    "create:dark_oak_window_pane",
+    "create:deepslate_pillar",
+    "create:deepslate_zinc_ore",
+    "create:deployer",
+    "create:depot",
+    "create:desk_bell",
+    "create:diorite_pillar",
+    "create:display_link",
+    "create:dough",
+    "create:dripstone_pillar",
+    "create:elevator_contact",
+    "create:elevator_pulley",
+    "create:encased_chain_drive",
+    "create:encased_fan",
+    "create:experience_block",
+    "create:exposed_copper_shingle_stairs",
+    "create:exposed_copper_shingles",
+    "create:exposed_copper_tile_stairs",
+    "create:exposed_copper_tiles",
+    "create:fluid_pipe",
+    "create:fluid_valve",
+    "create:flywheel",
+    "create:framed_glass",
+    "create:framed_glass_pane",
+    "create:gantry_carriage",
+    "create:gantry_shaft",
+    "create:gearbox",
+    "create:gearshift",
+    "create:granite_pillar",
+    "create:gray_seat",
+    "create:gray_table_cloth",
+    "create:gray_valve_handle",
+    "create:green_seat",
+    "create:green_table_cloth",
+    "create:green_valve_handle",
+    "create:hand_crank",
+    "create:haunted_bell",
+    "create:honeyed_apple",
+    "create:horizontal_framed_glass",
+    "create:horizontal_framed_glass_pane",
+    "create:hose_pulley",
+    "create:industrial_iron_block",
+    "create:industrial_iron_window",
+    "create:industrial_iron_window_pane",
+    "create:item_drain",
+    "create:item_hatch",
+    "create:jungle_window",
+    "create:jungle_window_pane",
+    "create:large_cogwheel",
+    "create:layered_andesite",
+    "create:layered_asurine",
+    "create:layered_calcite",
+    "create:layered_crimsite",
+    "create:layered_deepslate",
+    "create:layered_diorite",
+    "create:layered_dripstone",
+    "create:layered_granite",
+    "create:layered_limestone",
+    "create:layered_ochrum",
+    "create:layered_scorchia",
+    "create:layered_scoria",
+    "create:layered_tuff",
+    "create:layered_veridium",
+    "create:light_blue_seat",
+    "create:light_blue_table_cloth",
+    "create:light_blue_valve_handle",
+    "create:light_gray_seat",
+    "create:light_gray_table_cloth",
+    "create:light_gray_valve_handle",
+    "create:lime_seat",
+    "create:lime_table_cloth",
+    "create:lime_valve_handle",
+    "create:limestone",
+    "create:limestone_pillar",
+    "create:linear_chassis",
+    "create:magenta_seat",
+    "create:magenta_table_cloth",
+    "create:magenta_valve_handle",
+    "create:mangrove_window",
+    "create:mangrove_window_pane",
+    "create:mechanical_arm",
+    "create:mechanical_bearing",
+    "create:mechanical_drill",
+    "create:mechanical_harvester",
+    "create:mechanical_mixer",
+    "create:mechanical_piston",
+    "create:mechanical_plough",
+    "create:mechanical_press",
+    "create:mechanical_pump",
+    "create:mechanical_roller",
+    "create:mechanical_saw",
+    "create:metal_bracket",
+    "create:metal_girder",
+    "create:nozzle",
+    "create:oak_window",
+    "create:oak_window_pane",
+    "create:ochrum",
+    "create:ochrum_pillar",
+    "create:orange_seat",
+    "create:orange_table_cloth",
+    "create:orange_valve_handle",
+    "create:ornate_iron_window",
+    "create:ornate_iron_window_pane",
+    "create:oxidized_copper_shingle_stairs",
+    "create:oxidized_copper_shingles",
+    "create:oxidized_copper_tile_stairs",
+    "create:oxidized_copper_tiles",
+    "create:packager",
+    "create:peculiar_bell",
+    "create:pink_seat",
+    "create:pink_table_cloth",
+    "create:pink_valve_handle",
+    "create:piston_extension_pole",
+    "create:polished_cut_andesite",
+    "create:polished_cut_andesite_stairs",
+    "create:polished_cut_andesite_wall",
+    "create:polished_cut_asurine",
+    "create:polished_cut_asurine_stairs",
+    "create:polished_cut_asurine_wall",
+    "create:polished_cut_calcite",
+    "create:polished_cut_calcite_stairs",
+    "create:polished_cut_calcite_wall",
+    "create:polished_cut_crimsite",
+    "create:polished_cut_crimsite_stairs",
+    "create:polished_cut_crimsite_wall",
+    "create:polished_cut_deepslate",
+    "create:polished_cut_deepslate_stairs",
+    "create:polished_cut_deepslate_wall",
+    "create:polished_cut_diorite",
+    "create:polished_cut_diorite_stairs",
+    "create:polished_cut_diorite_wall",
+    "create:polished_cut_dripstone",
+    "create:polished_cut_dripstone_stairs",
+    "create:polished_cut_dripstone_wall",
+    "create:polished_cut_granite",
+    "create:polished_cut_granite_stairs",
+    "create:polished_cut_granite_wall",
+    "create:polished_cut_limestone",
+    "create:polished_cut_limestone_stairs",
+    "create:polished_cut_limestone_wall",
+    "create:polished_cut_ochrum",
+    "create:polished_cut_ochrum_stairs",
+    "create:polished_cut_ochrum_wall",
+    "create:polished_cut_scorchia",
+    "create:polished_cut_scorchia_stairs",
+    "create:polished_cut_scorchia_wall",
+    "create:polished_cut_scoria",
+    "create:polished_cut_scoria_stairs",
+    "create:polished_cut_scoria_wall",
+    "create:polished_cut_tuff",
+    "create:polished_cut_tuff_stairs",
+    "create:polished_cut_tuff_wall",
+    "create:polished_cut_veridium",
+    "create:polished_cut_veridium_stairs",
+    "create:polished_cut_veridium_wall",
+    "create:portable_fluid_interface",
+    "create:portable_storage_interface",
+    "create:powered_latch",
+    "create:powered_toggle_latch",
+    "create:pulse_extender",
+    "create:pulse_repeater",
+    "create:pulse_timer",
+    "create:purple_seat",
+    "create:purple_table_cloth",
+    "create:purple_valve_handle",
+    "create:radial_chassis",
+    "create:railway_casing",
+    "create:raw_zinc_block",
+    "create:red_seat",
+    "create:red_table_cloth",
+    "create:red_valve_handle",
+    "create:redstone_contact",
+    "create:redstone_link",
+    "create:redstone_requester",
+    "create:refined_radiance_casing",
+    "create:repackager",
+    "create:rope_pulley",
+    "create:rose_quartz_block",
+    "create:rose_quartz_tiles",
+    "create:rotation_speed_controller",
+    "create:schematicannon",
+    "create:scorchia",
+    "create:scorchia_pillar",
+    "create:scoria",
+    "create:scoria_pillar",
+    "create:secondary_linear_chassis",
+    "create:sequenced_gearshift",
+    "create:shadow_steel_casing",
+    "create:shaft",
+    "create:small_andesite_brick_stairs",
+    "create:small_andesite_brick_wall",
+    "create:small_andesite_bricks",
+    "create:small_asurine_brick_stairs",
+    "create:small_asurine_brick_wall",
+    "create:small_asurine_bricks",
+    "create:small_calcite_brick_stairs",
+    "create:small_calcite_brick_wall",
+    "create:small_calcite_bricks",
+    "create:small_crimsite_brick_stairs",
+    "create:small_crimsite_brick_wall",
+    "create:small_crimsite_bricks",
+    "create:small_deepslate_brick_stairs",
+    "create:small_deepslate_brick_wall",
+    "create:small_deepslate_bricks",
+    "create:small_diorite_brick_stairs",
+    "create:small_diorite_brick_wall",
+    "create:small_diorite_bricks",
+    "create:small_dripstone_brick_stairs",
+    "create:small_dripstone_brick_wall",
+    "create:small_dripstone_bricks",
+    "create:small_granite_brick_stairs",
+    "create:small_granite_brick_wall",
+    "create:small_granite_bricks",
+    "create:small_limestone_brick_stairs",
+    "create:small_limestone_brick_wall",
+    "create:small_limestone_bricks",
+    "create:small_ochrum_brick_stairs",
+    "create:small_ochrum_brick_wall",
+    "create:small_ochrum_bricks",
+    "create:small_rose_quartz_tiles",
+    "create:small_scorchia_brick_stairs",
+    "create:small_scorchia_brick_wall",
+    "create:small_scorchia_bricks",
+    "create:small_scoria_brick_stairs",
+    "create:small_scoria_brick_wall",
+    "create:small_scoria_bricks",
+    "create:small_tuff_brick_stairs",
+    "create:small_tuff_brick_wall",
+    "create:small_tuff_bricks",
+    "create:small_veridium_brick_stairs",
+    "create:small_veridium_brick_wall",
+    "create:small_veridium_bricks",
+    "create:smart_chute",
+    "create:smart_fluid_pipe",
+    "create:spout",
+    "create:spruce_window",
+    "create:spruce_window_pane",
+    "create:steam_engine",
+    "create:steam_whistle",
+    "create:sticker",
+    "create:sticky_mechanical_piston",
+    "create:stock_link",
+    "create:stock_ticker",
+    "create:stockpile_switch",
+    "create:sweet_roll",
+    "create:tiled_glass",
+    "create:tiled_glass_pane",
+    "create:track_observer",
+    "create:track_signal",
+    "create:track_station",
+    "create:tuff_pillar",
+    "create:turntable",
+    "create:veridium",
+    "create:veridium_pillar",
+    "create:vertical_framed_glass",
+    "create:vertical_framed_glass_pane",
+    "create:vertical_gearbox",
+    "create:warped_window",
+    "create:warped_window_pane",
+    "create:waxed_copper_shingle_stairs",
+    "create:waxed_copper_shingles",
+    "create:waxed_copper_tile_stairs",
+    "create:waxed_copper_tiles",
+    "create:waxed_exposed_copper_shingle_stairs",
+    "create:waxed_exposed_copper_shingles",
+    "create:waxed_exposed_copper_tile_stairs",
+    "create:waxed_exposed_copper_tiles",
+    "create:waxed_oxidized_copper_shingle_stairs",
+    "create:waxed_oxidized_copper_shingles",
+    "create:waxed_oxidized_copper_tile_stairs",
+    "create:waxed_oxidized_copper_tiles",
+    "create:waxed_weathered_copper_shingle_stairs",
+    "create:waxed_weathered_copper_shingles",
+    "create:waxed_weathered_copper_tile_stairs",
+    "create:waxed_weathered_copper_tiles",
+    "create:weathered_copper_shingle_stairs",
+    "create:weathered_copper_shingles",
+    "create:weathered_copper_tile_stairs",
+    "create:weathered_copper_tiles",
+    "create:weathered_iron_block",
+    "create:weathered_iron_window",
+    "create:weathered_iron_window_pane",
+    "create:weighted_ejector",
+    "create:white_seat",
+    "create:white_table_cloth",
+    "create:white_valve_handle",
+    "create:windmill_bearing",
+    "create:wooden_bracket",
+    "create:yellow_seat",
+    "create:yellow_table_cloth",
+    "create:yellow_valve_handle",
+    "create:zinc_block",
+    "create:zinc_ore",
+    "poweredtfc:create_to_tfc_converter",
+    "poweredtfc:tfc_to_create_converter"
   ]
 }

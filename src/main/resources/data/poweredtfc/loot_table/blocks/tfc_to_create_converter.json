@@ -1,20 +1,9 @@
 {
   "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "poweredtfc:tfc_to_create_converter"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
-    }
-  ],
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "poweredtfc:tfc_to_create_converter" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }],
   "random_sequence": "poweredtfc:blocks/tfc_to_create_converter"
 }

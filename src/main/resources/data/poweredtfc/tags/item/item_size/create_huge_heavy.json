@@ -1,21 +1,9 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:basin",
-      "required": false
-    },
-    {
-      "id": "create:creative_fluid_tank",
-      "required": false
-    },
-    {
-      "id": "create:fluid_tank",
-      "required": false
-    },
-    {
-      "id": "create:item_vault",
-      "required": false
-    }
+    "create:basin",
+    "create:creative_fluid_tank",
+    "create:fluid_tank",
+    "create:item_vault"
   ]
 }

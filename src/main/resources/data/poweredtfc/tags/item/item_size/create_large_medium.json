@@ -1,57 +1,16 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "create:brass_ingot",
-      "required": false
-    },
-    {
-      "id": "create:brass_sheet",
-      "required": false
-    },
-    {
-      "id": "create:chocolate_bucket",
-      "required": false
-    },
-    {
-      "id": "create:copper_sheet",
-      "required": false
-    },
-    {
-      "id": "create:golden_sheet",
-      "required": false
-    },
-    {
-      "id": "create:honey_bucket",
-      "required": false
-    },
-    {
-      "id": "create:iron_sheet",
-      "required": false
-    },
-    {
-      "id": "create:sturdy_sheet",
-      "required": false
-    },
-    {
-      "id": "create:unprocessed_obsidian_sheet",
-      "required": false
-    },
-    {
-      "id": "create:wrench",
-      "required": false
-    },
-    {
-      "id": "create:zinc_ingot",
-      "required": false
-    },
-    {
-      "id": "moreburners:converter_cover",
-      "required": false
-    },
-    {
-      "id": "moreburners:nickel_ingot",
-      "required": false
-    }
+    "create:brass_ingot",
+    "create:brass_sheet",
+    "create:chocolate_bucket",
+    "create:copper_sheet",
+    "create:golden_sheet",
+    "create:honey_bucket",
+    "create:iron_sheet",
+    "create:sturdy_sheet",
+    "create:unprocessed_obsidian_sheet",
+    "create:wrench",
+    "create:zinc_ingot"
   ]
 }

@@ -1,14 +1,10 @@
 # Powered TFC
 
-Createの動力設備をTerraFirmaCraftの熱・送風・表示へ接続するMinecraft 1.21.1 / NeoForge向け互換Modです。
+Powered TFC connects Create machinery with TerraFirmaCraft heat and air systems.
 
-対応Createバージョン: 6.0.x
+It requires Minecraft 1.21.1 with Create 6.0.10, TerraFirmaCraft 4.2.12, and Patchouli 1.21.1-93-NEOFORGE.
 
-https://www.curseforge.com/minecraft/mc-mods/powered-tfc
-
-## Build
-
-Requirement: JDK 21
+Build the mod with:
 
 ```sh
 ./gradlew build
