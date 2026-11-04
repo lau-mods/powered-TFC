@@ -49,3 +49,8 @@ COMMON config の8項目は `blaze_burner.*`、`encased_fan.*`、`mechanical_con
 - GameTest は `./gradlew runGameTestServer` で実行する。最大heapは3 GiBで、JUnit XMLは `run/gametest-results.xml` に出力する。
   JSON を変更した場合は構文と参照先の整合性も確認する。
 - ユーザーに見える挙動、依存関係、ID、検証手順を変更した場合は本書も更新する。
+
+## 依存バージョンの許容範囲
+
+- NeoForge と依存 Mod の実行時制約は最低対応版以上の `[最低版,)` とする。完全一致指定や上限によって更新版の起動を拒否しない。
+- Gradle・Harness・製品仕様に記載した固定版はビルドと再現試験の基準版。実行時の許容範囲とは分けて扱い、依存バージョンのテストも最低版以上で判定する。
